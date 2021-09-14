@@ -68,3 +68,43 @@ input[type="color"]::-webkit-color-swatch{
     background-color: #4a6ee0;
     color: #ffffff;
 }
+
+#submit {
+    display: block;
+    background-color: #4a6ee0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 70px;
+    border-radius: 25px;
+    margin: 0 auto 30px auto;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #25257c;
+}
+
+.output {
+    background-color: #f0f2fc;
+}
+
+#code {
+    width: 100%;
+    resize: none;
+    color: #30304a;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+#copy {
+    font-size: 14px;
+    background-color: #4a6ee0;
+    color: #ffffff;
+    position: relative;
+    left: 85%;
+    bottom: 10px;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
