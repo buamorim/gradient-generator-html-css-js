@@ -22,3 +22,22 @@ body {
     left: 50%;
     border-radius: 10px;
 }
+
+.colors {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;   
+}
+
+input[type="color"]{
+    -webkit-appearance: none;
+    background-color: transparent;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;  
+}
+
+input[type="color"]::-webkit-color-swatch{
+    border-radius: 20px;
+    border: none;
+}
