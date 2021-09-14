@@ -21,7 +21,7 @@ function generateCode(){
 function copyText(){
     outputCode.select();
     document.execCommand('copy');
-    alert('Gradient Copied!');
+    alert('Gradiente Copiado!');
 }
 
 generateCode();
